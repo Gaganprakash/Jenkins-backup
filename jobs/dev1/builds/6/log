@@ -1,0 +1,23 @@
+Started by user [8mha:////4CL+nTc7H+s81q/ekFep/zR+LP6qQYTcVkPtufuCX7p2AAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL99MT0xDwAw6tMUMAAAAA=[0mGagan
+Running as SYSTEM
+Building on master in workspace /var/lib/jenkins/workspace/dev1@2
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/Gaganprakash/Dev.git
+ > git init /var/lib/jenkins/workspace/dev1@2 # timeout=10
+Fetching upstream changes from https://github.com/Gaganprakash/Dev.git
+ > git --version # timeout=10
+ > git fetch --tags --progress https://github.com/Gaganprakash/Dev.git +refs/heads/*:refs/remotes/origin/*
+ > git config remote.origin.url https://github.com/Gaganprakash/Dev.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/Gaganprakash/Dev.git # timeout=10
+Fetching upstream changes from https://github.com/Gaganprakash/Dev.git
+ > git fetch --tags --progress https://github.com/Gaganprakash/Dev.git +refs/heads/*:refs/remotes/origin/*
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+ > git rev-parse refs/remotes/origin/origin/master^{commit} # timeout=10
+Checking out Revision f11dc246a9729858aa7cacc337f9090bd8ddc5a5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f11dc246a9729858aa7cacc337f9090bd8ddc5a5
+Commit message: "Merge pull request #1 from vinaykumarsrs/master"
+ > git rev-list --no-walk d77568ed6370a4275ce92debea51711fe4edf6a4 # timeout=10
+Finished: SUCCESS
